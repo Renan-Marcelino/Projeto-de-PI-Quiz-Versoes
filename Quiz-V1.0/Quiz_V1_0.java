@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Main {
+class Quiz_V1_0 {
   public static void main(String[] args)throws InterruptedException{
   Scanner Quiz = new Scanner(System.in);
     
