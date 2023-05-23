@@ -1,7 +1,7 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 class Quiz_V1_1{
-  public static void Quiz_V1_1(String[] args)throws InterruptedException{
+  public static void main(String[] args)throws InterruptedException{
   Scanner Quiz = new Scanner(System.in);
     
   //↓↓↓ Variaveis das respostas corretas ↓↓↓
