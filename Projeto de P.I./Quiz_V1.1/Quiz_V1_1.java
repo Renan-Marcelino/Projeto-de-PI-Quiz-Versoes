@@ -754,11 +754,20 @@ switch (RespostaDoJogador){
        System.out.println("\nResposta invalida digite novamente!");
        Thread.sleep(800);    
        cont = 2;
-       for(int i = 0; i < 1*30; i++) {
+       for(int i = 0; i < 1*25; i++) {
          System.out.print("\n");}
     }     
+    if (sairDoJogo > 1 || sairDoJogo < 0) {
+      System.out.println("\nResposta invalida digite novamente!");
+      Thread.sleep(800);
+      cont = 2;
+    }
     Thread.sleep(800);
   }while (cont >1);
-  }while(respDoJogador == 1);
+  if(sairDoJogo == 1){
+    for(int i = 0; i < 1*30; i++) {
+      System.out.print("\n");}
+  }
+  }while(sairDoJogo == 1);
  }
 }
