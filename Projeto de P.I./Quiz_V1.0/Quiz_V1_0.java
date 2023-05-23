@@ -628,9 +628,4 @@ switch (RespostaDoJogador){
     sairdojogo = Quiz.nextInt();
   }while(sairdojogo == 1);
  }
-
-@Override
-public String toString() {
-	return "Main []";
- }
 }
